@@ -3,7 +3,7 @@
 Plugin Name: Skizzar Admin Theme Lite
 Plugin URI: http://wordpressadmintheme.skizzar.com/
 Description: Skizzar Admin Theme.
-Version: 1.1.2
+Version: 1.1.3
 Author: Skizzar
 Author URI: http://skizzar.com/
 */
