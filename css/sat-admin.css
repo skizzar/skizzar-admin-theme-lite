@@ -1,0 +1,518 @@
+/*!
+ * This file is part of: Skizzar Admin Theme
+ * Author: Skizzar
+ * Author URI: http://skizzar.com/
+ * Version: 1.0
+ */
+
+.sat-admin-menu-editor-item-edit.-expand, .sat-admin-menu-editor-item-edit.-collapse, .sat-docs-backtotop {
+  display: inline-block;
+  border-radius: 3px !important;
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+  padding: 12px 26.25px !important;
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+  text-align: center;
+  box-shadow: none !important;
+  width: auto;
+  height: auto !important;
+  text-decoration: none;
+  text-shadow: none !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand:hover, .sat-admin-menu-editor-item-edit.-collapse:hover, .sat-docs-backtotop:hover, .sat-admin-menu-editor-item-edit.-expand:focus, .sat-admin-menu-editor-item-edit.-collapse:focus, .sat-docs-backtotop:focus {
+  font-weight: normal;
+  text-decoration: none !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand {
+  padding: 12px 26.25px !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand {
+  color: white !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand {
+  background: #52bde6 !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand {
+  border: 0 !important;
+}
+
+.wp-core-ui [disabled].sat-admin-menu-editor-item-edit.-expand,
+.wp-core-ui .disabled.sat-admin-menu-editor-item-edit.-expand {
+  opacity: 0.5;
+  text-shadow: none !important;
+}
+
+.wp-core-ui [disabled].sat-admin-menu-editor-item-edit.-expand,
+.wp-core-ui .disabled.sat-admin-menu-editor-item-edit.-expand {
+  color: white !important;
+}
+
+.wp-core-ui [disabled].sat-admin-menu-editor-item-edit.-expand,
+.wp-core-ui .disabled.sat-admin-menu-editor-item-edit.-expand {
+  background: #52bde6 !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand:hover, .sat-admin-menu-editor-item-edit.-expand:focus {
+  background: #34bbee !important;
+}
+
+.sat-admin-menu-editor-item-edit.-expand:hover, .sat-admin-menu-editor-item-edit.-expand:focus {
+  color: white !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse, .sat-docs-backtotop {
+  padding: 11px 26.25px !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse, .sat-docs-backtotop {
+  color: #5d6365 !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse, .sat-docs-backtotop {
+  background: none !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse, .sat-docs-backtotop {
+  border: 1px solid #d2d7da !important;
+}
+
+.sat-button-large.sat-admin-menu-editor-item-edit.-collapse, .sat-button-large.sat-docs-backtotop {
+  line-height: 22px !important;
+  padding: 14px 26.25px !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse:hover, .sat-docs-backtotop:hover, .sat-admin-menu-editor-item-edit.-collapse:focus, .sat-docs-backtotop:focus {
+  color: #222 !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse:hover, .sat-docs-backtotop:hover, .sat-admin-menu-editor-item-edit.-collapse:focus, .sat-docs-backtotop:focus {
+  background: none !important;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse:hover, .sat-docs-backtotop:hover, .sat-admin-menu-editor-item-edit.-collapse:focus, .sat-docs-backtotop:focus {
+  border: 1px solid #b3bbbe !important;
+}
+
+/*
+ * Table of contents
+ *
+ * 1.0 Helper classes
+ * 2.0 Page layout
+ * 2.1 Tool: Admin Menu Editor page
+ * 2.2 Documentation
+ * 3.0 Hide non-theme elements
+ * 4.0 Forms
+ * 5.0 Hiding of elements depending on option settings
+ * 6.0 Make dashicons work in the toolbar
+ */
+
+/*
+ * 1.0 Helper classes
+ */
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+/*
+ * 2.0 Page layout
+ */
+
+.sat-page-content {
+  overflow: hidden;
+}
+
+.sat-page-sidebar {
+  float: right;
+  width: 275px;
+  margin: 0 0 45px 45px;
+}
+
+@media (min-width: 1880px) {
+  .sat-page-sidebar {
+    width: 300px;
+    margin-left: 67.5px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sat-page-sidebar {
+    display: none;
+    margin: 0 0 15px 15px;
+  }
+}
+
+.sat-page-sidebar .sat-widget {
+  margin-bottom: 45px;
+}
+
+.sat-page-sidebar .sat-button-action + button {
+  margin-top: 7.5px;
+}
+
+.multisite .sat-options-revert-button {
+    display:none !important;
+}
+
+.sat-page-sidebar .sat-button-w100p + .sat-button-w100p {
+  display: block;
+}
+
+.sat-page-sidebar-lower {
+  margin-top: 45px;
+}
+
+@media (max-width: 1200px) {
+  .sat-page-sidebar-lower {
+    margin-top: 15px;
+  }
+}
+
+/* Dashboard Status Widget */
+.sat-status-list {
+  margin: 0;
+  overflow: hidden;
+}
+
+.sat-status-item {
+  clear: both;
+}
+
+.sat-status-key {
+  float: left;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.sat-status-value {
+  float: right;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.sat-status-value, .sat-status-value a {
+  color: #aaa ;
+}
+
+.sat-status-value a:hover {
+  color: #42abdf ;
+}
+
+.sat-widget.sat-tool-item {
+  margin-bottom: 30px !important;
+}
+
+/*
+ * 2.1 Tool: Admin Menu Editor page
+ */
+
+.tools_page_sat-admin-menu-editor .wrap form > h3,
+.tools_page_sat-admin-menu-editor .wrap form > h2 {
+  display: none;
+}
+
+.tools_page_sat-admin-menu-editor .form-table {
+  display: none;
+}
+
+.tools_page_sat-admin-menu-editor .wrap > h1 {
+  margin-bottom: 45px !important;
+}
+
+/* Sortable lists */
+.sat-admin-menu-editor .sortable-placeholder {
+  margin-bottom: 4px;
+  padding: 15px 20px;
+  height: 21px;
+  box-sizing: content-box;
+}
+
+.sat-admin-menu-editor li + li + .sortable-placeholder {
+  margin-top: 4px !important;
+}
+
+/* Admin Menu Editor */
+.sat-admin-menu-editor {
+  margin: 0;
+  padding: 0;
+}
+
+.sat-admin-menu-editor-page {
+  padding: 15px 20px;
+  background: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.sat-admin-menu-editor-page {
+  border: 1px solid #e8e8e8 ;
+}
+
+.sat-admin-menu-editor-mainmenu > li > .sat-admin-menu-editor-page {
+  cursor: move;
+  margin-right: 45px;
+}
+
+.sat-admin-menu-editor-page:hover, .sat-admin-menu-editor-page:active, .sat-admin-menu-editor-page:focus {
+  background-color: white;
+  z-index: 2;
+}
+
+.sat-admin-menu-editor-page:hover, .sat-admin-menu-editor-page:active, .sat-admin-menu-editor-page:focus {
+  border-color: #ddd ;
+}
+
+.sat-admin-menu-editor-item {
+  background: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.sat-admin-menu-editor-submenu .sat-admin-menu-editor-item,
+.sat-admin-menu-editor-item + .sat-admin-menu-editor-item {
+  margin-top: -1px;
+}
+
+.sat-admin-menu-editor-item-edit {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+}
+
+.sat-admin-menu-editor-item-edit.-expand {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  transition: opacity 0.15s;
+  opacity: 0;
+}
+
+.sat-admin-menu-editor-page:hover .sat-admin-menu-editor-item-edit.-expand {
+  opacity: 1;
+}
+
+.sat-admin-menu-editor-page.-open .sat-admin-menu-editor-item-edit.-expand {
+  display: none;
+}
+
+.sat-admin-menu-editor-item-edit.-collapse {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+  display: none;
+}
+
+.sat-admin-menu-editor-page.-open .sat-admin-menu-editor-item-edit.-collapse {
+  display: inline-block;
+}
+
+.sat-admin-menu-editor-item-drag-icon {
+  opacity: 0.25;
+  margin-right: 7.5px;
+  line-height: 21px;
+  transition: opacity 0.15s;
+}
+
+.sat-admin-menu-editor-page:hover .sat-admin-menu-editor-item-drag-icon {
+  opacity: 0.75;
+}
+
+.sat-admin-menu-editor-item-settings {
+  display: none;
+  overflow: hidden;
+  margin: 15px;
+  margin-bottom: 19px;
+}
+
+.sat-admin-menu-editor-item-settings > label {
+  display: inline-block;
+  margin-right: 7.5px;
+}
+
+.-open .sat-admin-menu-editor-item-settings {
+  cursor: default;
+  display: block;
+  padding-top: 15px;
+}
+
+.sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-label {
+  color: #aaa ;
+}
+
+.sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-title {
+  float: left;
+  margin-right: 30px;
+}
+
+@media (max-width: 1800px) {
+  .sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-title {
+    float: none;
+    margin-bottom: 15px;
+  }
+}
+
+.sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-roles {
+  overflow: hidden;
+}
+
+.sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-roles label {
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 45px;
+}
+
+@media (max-width: 1800px) {
+  .sat-admin-menu-editor-item-settings .sat-admin-menu-editor-form-roles label {
+    line-height: 1.7;
+  }
+}
+
+.sat-admin-menu-editor-submenu {
+  margin: 0;
+  padding: 0;
+  margin-left: 45px;
+}
+
+.sat-admin-menu-editor-title-show {
+  font-size: 15px;
+}
+
+.sat-admin-menu-editor-page:hover .sat-admin-menu-editor-title-show {
+  color: #222 ;
+}
+
+/*
+ * 2.2 Documentation
+ */
+
+.sat-docs * {
+  box-sizing: border-box;
+}
+
+.sat-docs .sat-page-content p {
+  margin-bottom: 2em;
+  max-width: 1100px;
+}
+
+.sat-docs .sat-page-content p + h3 {
+  margin-top: 90px;
+}
+
+.sat-docs .sat-page-content h4 {
+  font-size: 15px;
+  margin-bottom: 0.5em;
+}
+
+.sat-docs .sat-page-content h4 {
+  color: #222 ;
+}
+
+.sat-docs .sat-page-content h4 + p {
+  margin-top: 0.5em;
+}
+
+.sat-docs-backtotop {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+/*
+ * 3.0 Hide non-theme elements
+ */
+
+#toplevel_page_sat-menu-collapse,
+#toplevel_page_sat-view-site {
+  display: none;
+}
+
+/*
+ * 4.0 Forms
+ */
+
+.form-label-disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.form-label-disabled > input {
+  cursor: default;
+}
+
+/*
+ * 5.0 Hiding of elements depending on option settings
+ */
+.sat-hide-top-paging .tablenav.top .tablenav-pages {
+  display: none;
+}
+
+.sat-hide-post-search .search-box,
+.sat-hide-post-search .search-form {
+  display: none;
+}
+
+.sat-hide-post-search.theme-install-php .search-form,
+.sat-hide-post-search.plugin-install-php .search-form {
+  display: block;
+}
+
+.sat-hide-top-bulk .tablenav.top .bulkactions {
+  display: none;
+}
+
+.sat-hide-user-role-changer.users-php #new_role,
+.sat-hide-user-role-changer.users-php #changeit {
+  display: none;
+}
+
+.sat-hide-view-switch .view-switch {
+  display: none !important;
+}
+
+.sat-hide-permalink #edit-slug-box {
+  display: none;
+}
+
+.sat-hide-media-bulk-select .media-frame .media-toolbar-secondary .select-mode-toggle-button {
+  display: none;
+}
+
+.sat-hide-comment-type-filter #filter-by-comment-type,
+.sat-hide-comment-type-filter #filter-by-comment-type + .button {
+  display: none;
+}
+
+/*
+ * 6.0 Toolbar Notification Center
+*/
+#wpadminbar .dashicons {
+  font-family: dashicons;
+}
+
+#wp-admin-bar-sat-notification-center,
+#wp-admin-bar-sat-notification-center-dummy {
+  display: none;
+}

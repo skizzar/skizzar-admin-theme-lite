@@ -1,0 +1,2180 @@
+/*!
+ * This file is part of: Skizzar Admin Theme
+ * Author: Skizzar
+ * Author URI: http://skizzar.com/
+ * Version: 1.0
+ */
+
+.sat-theme.toplevel_page_jetpack .jp-content, .sat-theme.jetpack_page_jetpack_modules .jp-content {
+  margin: 0;
+  padding: 45px 90px;
+  clear: both;
+}
+
+@media (min-width: 1880px) {
+  .sat-theme.toplevel_page_jetpack .jp-content, .sat-theme.jetpack_page_jetpack_modules .jp-content {
+    padding: 67.5px 135px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sat-theme.toplevel_page_jetpack .jp-content, .sat-theme.jetpack_page_jetpack_modules .jp-content {
+    padding: 22.5px 45px;
+  }
+}
+
+@media (max-width: 782px) {
+  .sat-theme.toplevel_page_jetpack .jp-content, .sat-theme.jetpack_page_jetpack_modules .jp-content {
+    padding: 15px;
+  }
+}
+
+.sat-theme .jp-content .shade {
+  position: fixed;
+  left: 0;
+  opacity: 1;
+  z-index: 10001 !important;
+}
+
+.sat-theme .jp-content .shade {
+  background: rgba(0, 0, 0, 0.7) ;
+}
+
+.sat-theme .jp-content .modal {
+  z-index: 100050 !important;
+  box-shadow: none !important;
+  right: 25%;
+  left: 25% !important;
+  top: 20% !important;
+  bottom: 20% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-top: 51px !important;
+  margin-left: 0 !important;
+}
+
+.sat-theme .jp-content .modal, .sat-theme .jp-content .modal * {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1100px) {
+  .sat-theme .jp-content .modal {
+    right: 25px;
+    left: 25px !important;
+    top: 25px !important;
+    bottom: 25px !important;
+  }
+}
+
+@media (max-height: 750px) {
+  .sat-theme .jp-content .modal {
+    right: 25px;
+    left: 25px !important;
+    top: 25px !important;
+    bottom: 25px !important;
+  }
+}
+
+.sat-theme .jp-content .modal #TB_ajaxContent, .sat-theme .jp-content .modal #TB_iframeContent {
+  position: absolute;
+  width: 100% !important;
+  max-height: 100% !important;
+  top: 0;
+  bottom: 0;
+}
+
+.sat-theme .jp-content .modal #TB_ajaxContent {
+  padding: 30px;
+  height: auto !important;
+}
+
+.sat-theme .jp-content .modal #TB_ajaxContent {
+  background: #fcfcfc ;
+}
+
+.sat-theme .jp-content .modal #TB_iframeContent {
+  height: 100% !important;
+}
+
+.sat-theme .jp-content .modal #TB_title {
+  float: none;
+  position: absolute;
+  left: 0;
+  top: -51px;
+  width: 100%;
+  min-height: 51px;
+  z-index: 2;
+}
+
+.sat-theme .jp-content .modal #TB_title {
+  border-bottom: 1px solid #e8e8e8 ;
+}
+
+.sat-theme .jp-content .modal #TB_title {
+  background: #fff !important;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_ajaxWindowTitle {
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 14.7px 19.5px;
+  display: block !important;
+  font-weight: normal;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_ajaxWindowTitle {
+  color: #555 ;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_ajaxWindowTitle strong {
+  font-weight: normal;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_ajaxWindowTitle strong {
+  color: #aaa ;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow {
+  float: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 51px;
+  overflow: hidden;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton {
+  background: #fff ;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton {
+  border-left: 1px solid #e8e8e8 ;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon {
+  position: static;
+  width: 50px;
+  height: 50px;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon {
+  color: #c8c8c8 ;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton .tb-close-icon:before {
+  font-size: 22px;
+  line-height: 54px;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton:hover {
+  background: #f6f6f6 ;
+}
+
+.sat-theme .jp-content .modal #TB_title #TB_closeAjaxWindow #TB_closeWindowButton:hover .tb-close-icon {
+  color: #959595 ;
+}
+
+.sat-theme .layers-panel, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox {
+  border: 1px solid;
+  margin-bottom: 45px;
+  box-shadow: none !important;
+}
+
+.sat-theme .layers-panel, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox {
+  border-color: #f2f2f2 ;
+}
+
+.sat-theme .layers-panel, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox {
+  background: white ;
+}
+
+.sat-theme .layers-panel ul, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox ul, .sat-theme .layers-panel ol, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox ol {
+  list-style-position: inside;
+}
+
+.sat-theme .layers-panel .hndle, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle,
+#poststuff .sat-theme .layers-panel > h3, .sat-theme
+#poststuff .layers-panel > h3,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3 {
+  cursor: default !important;
+  padding: 30px;
+  padding-bottom: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.sat-theme .layers-panel .hndle, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle, .sat-theme .layers-panel .hndle span, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle span,
+#poststuff .sat-theme .layers-panel > h3, .sat-theme
+#poststuff .layers-panel > h3,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3,
+#poststuff .sat-theme .layers-panel > h3 span, .sat-theme
+#poststuff .layers-panel > h3 span,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3 span, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3 span {
+  font-size: 18px;
+}
+
+.sat-theme .layers-panel .hndle, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle, .sat-theme .layers-panel .hndle a, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle a,
+#poststuff .sat-theme .layers-panel > h3, .sat-theme
+#poststuff .layers-panel > h3,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3,
+#poststuff .sat-theme .layers-panel > h3 a, .sat-theme
+#poststuff .layers-panel > h3 a,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3 a, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3 a {
+  border: 0;
+}
+
+.sat-theme .layers-panel .hndle, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle, .sat-theme .layers-panel .hndle a, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle a,
+#poststuff .sat-theme .layers-panel > h3, .sat-theme
+#poststuff .layers-panel > h3,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3,
+#poststuff .sat-theme .layers-panel > h3 a, .sat-theme
+#poststuff .layers-panel > h3 a,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3 a, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3 a {
+  color: #222 ;
+}
+
+.sat-theme .layers-panel .hndle a, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle a,
+#poststuff .sat-theme .layers-panel > h3 a, .sat-theme
+#poststuff .layers-panel > h3 a,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3 a, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3 a {
+  cursor: pointer !important;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.sat-theme .layers-panel .hndle.ui-sortable-handle, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .hndle.ui-sortable-handle,
+#poststuff .sat-theme .layers-panel > h3.ui-sortable-handle, .sat-theme
+#poststuff .layers-panel > h3.ui-sortable-handle,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > h3.ui-sortable-handle, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > h3.ui-sortable-handle {
+  cursor: move !important;
+}
+
+.sat-theme .layers-panel .handlediv:before, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .handlediv:before {
+  font-family: dashicons;
+}
+
+.sat-theme .layers-panel .toggle-indicator, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox .toggle-indicator {
+  display: none;
+}
+
+.sat-theme .layers-panel > .inside, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > .inside,
+#poststuff .sat-theme .layers-panel > .inside, .sat-theme
+#poststuff .layers-panel > .inside,
+#poststuff body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > .inside, body.sat-theme.toplevel_page_revslider
+#poststuff .postbox.unite-postbox > .inside {
+  margin: 30px;
+  padding: 0;
+  font-size: 15px;
+}
+
+.sat-theme .layers-panel > .inside p.submit, body.sat-theme.toplevel_page_revslider .postbox.unite-postbox > .inside p.submit {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.sat-theme #frm_form_editor_container > .postbox {
+  background: none;
+}
+
+.sat-theme #frm_form_editor_container > .postbox {
+  border: 1px solid #e8e8e8 ;
+}
+
+.sat-theme #frm_form_editor_container > .postbox .hndle {
+  padding: 30px 33.75px;
+  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+.sat-theme #frm_form_editor_container > .closed.postbox .hndle {
+  border-bottom: 0;
+  padding-bottom: 30px;
+}
+
+.sat-theme #frm_form_editor_container > .postbox .sat-widget-close, .sat-theme #frm_form_editor_container > .postbox .handlediv {
+  margin-top: 30px;
+}
+
+.sat-theme #frm_form_editor_container > .postbox .sat-widget-close, .sat-theme #frm_form_editor_container > .postbox .sat-widget-close span, .sat-theme #frm_form_editor_container > .postbox .sat-widget-close span:before, .sat-theme #frm_form_editor_container > .postbox .handlediv, .sat-theme #frm_form_editor_container > .postbox .handlediv span, .sat-theme #frm_form_editor_container > .postbox .handlediv span:before {
+  height: 21.6px;
+  line-height: 21.6px;
+}
+
+.sat-theme #frm_form_editor_container > .postbox .sat-widget-close {
+  margin-right: 33.75px;
+}
+
+.sat-theme #frm_form_editor_container > .postbox .handlediv:before, .sat-theme #frm_form_editor_container > .postbox .sat-widget-close .dashicons:before {
+  line-height: 21.6px;
+}
+
+.sat-theme #frm_form_editor_container > .postbox > .inside,
+#poststuff .sat-theme #frm_form_editor_container > .postbox > .inside, .sat-theme
+#poststuff #frm_form_editor_container > .postbox > .inside {
+  margin: 30px 33.75px;
+}
+
+.sat-theme #frm_form_editor_container > .postbox .hndle + .inside {
+  margin-top: 22.5px;
+}
+
+.sat-theme #bbp-dashboard-right-now .versions, .sat-theme #bp_activity_type .inside > p,
+.sat-theme #bp_activity_itemids .inside > p,
+.sat-theme #bp_activity_link .inside > p,
+.sat-theme #bp_activity_userid .inside > p, .sat-theme .layers-footer p {
+  font-size: inherit !important;
+  transition: color 0.15s;
+  cursor: default;
+  font-style: italic;
+}
+
+.sat-theme #bbp-dashboard-right-now .versions, .sat-theme #bp_activity_type .inside > p,
+.sat-theme #bp_activity_itemids .inside > p,
+.sat-theme #bp_activity_link .inside > p,
+.sat-theme #bp_activity_userid .inside > p, .sat-theme .layers-footer p {
+  color: #aaa !important;
+}
+
+.sat-theme .layers-button, .sat-theme .layers-button.btn-primary.disable, .sat-theme .layers-nav-horizontal li > a.layers-get-updater, body.sat-theme.toplevel_page_revslider #button_upload_plugin,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot, .sat-theme #post-body #postbox-container-2 #acf_fields #add_field, .sat-theme .layers-button.btn-primary, .wp-customizer .button-secondary.add-new-widget, .wp-customizer .widget-content .layers-add-widget-column, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #button_import_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark, #gadwp-widget #submit, #poststuff.gadwp form[name=ga_dash_form] #authorize, .sat-theme #frm_submit_side_top, .sat-theme .jp-content .modal .activate .button-primary, .wpseo-admin-page .submit .button, .sat-theme #layers-backup-pages, .sat-theme .layers-product-actions .load-customize, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize], .sat-theme .vc_settings .wpb_settings_accordion a, .sat-theme #ws_show_more_icons, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button, .sat-theme #edge-mode.updated .button:last-child, .sat-theme a.frm_insert_form, .sat-theme .layers-button.btn-link, .sat-theme .layers-image-upload-button + .layers-image-upload-button, .wp-customizer #customize-control-site_logo .button, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button, .wp-editor-tabs #content-panels, .sat-theme #w3tc-options-menu a, .wpseo-admin-page table tbody td.col_row_action a, .sat-theme .layers-nav-horizontal li > a, .sat-theme #w3tc.wrap .button,
+.sat-theme #w3tc.wrap .button-primary,
+.sat-theme #w3tc.wrap .button-secondary,
+.sat-theme #w3tc.wrap .button-buy-plugin,
+.sat-theme #w3tc.wrap #w3tc_dashboard .button, .sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .button-primary, .sat-theme #frm_form_editor_container .button, .sat-theme #poststuff #woocommerce-order-notes .add_note .button.add_note, body.sat-theme.toplevel_page_revslider .title_line .button-secondary {
+  display: inline-block;
+  border-radius: 3px !important;
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+  padding: 12px 26.25px !important;
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+  text-align: center;
+  box-shadow: none !important;
+  width: auto;
+  height: auto !important;
+  text-decoration: none;
+  text-shadow: none !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+.sat-theme .layers-button:hover, body.sat-theme.toplevel_page_revslider #button_upload_plugin:hover,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot:hover, .sat-theme #post-body #postbox-container-2 #acf_fields #add_field:hover, .wp-customizer .button-secondary.add-new-widget:hover, .wp-customizer .widget-content .layers-add-widget-column:hover, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple:hover,
+body.sat-theme.toplevel_page_revslider #button_import_slider:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark:hover, #gadwp-widget #submit:hover, #poststuff.gadwp form[name=ga_dash_form] #authorize:hover, .sat-theme #frm_submit_side_top:hover, .sat-theme .jp-content .modal .activate .button-primary:hover, .wpseo-admin-page .submit .button:hover, .sat-theme #layers-backup-pages:hover, .sat-theme .layers-product-actions .load-customize:hover, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider:hover,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide:hover, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary:hover,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings:hover, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form:hover,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings:hover, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary:hover, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize]:hover, .sat-theme .vc_settings .wpb_settings_accordion a:hover, .sat-theme #ws_show_more_icons:hover, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:hover, .sat-theme #edge-mode.updated .button:hover:last-child, .sat-theme a.frm_insert_form:hover, .sat-theme .layers-image-upload-button + .layers-image-upload-button:hover, .wp-customizer #customize-control-site_logo .button:hover, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:hover, .wp-editor-tabs #content-panels:hover, .sat-theme #w3tc-options-menu a:hover, .wpseo-admin-page table tbody td.col_row_action a:hover, .sat-theme .layers-nav-horizontal li > a:hover, .sat-theme #w3tc.wrap .button:hover,
+.sat-theme #w3tc.wrap .button-primary:hover,
+.sat-theme #w3tc.wrap .button-secondary:hover,
+.sat-theme #w3tc.wrap .button-buy-plugin:hover,
+.sat-theme #w3tc.wrap #w3tc_dashboard .button:hover, .sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .button-primary:hover, .sat-theme #frm_form_editor_container .button:hover, .sat-theme #poststuff #woocommerce-order-notes .add_note .button.add_note:hover, body.sat-theme.toplevel_page_revslider .title_line .button-secondary:hover, .sat-theme .layers-button:focus, body.sat-theme.toplevel_page_revslider #button_upload_plugin:focus,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot:focus, .sat-theme #post-body #postbox-container-2 #acf_fields #add_field:focus, .wp-customizer .button-secondary.add-new-widget:focus, .wp-customizer .widget-content .layers-add-widget-column:focus, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple:focus,
+body.sat-theme.toplevel_page_revslider #button_import_slider:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark:focus, #gadwp-widget #submit:focus, #poststuff.gadwp form[name=ga_dash_form] #authorize:focus, .sat-theme #frm_submit_side_top:focus, .sat-theme .jp-content .modal .activate .button-primary:focus, .wpseo-admin-page .submit .button:focus, .sat-theme #layers-backup-pages:focus, .sat-theme .layers-product-actions .load-customize:focus, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider:focus,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide:focus, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary:focus,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings:focus, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form:focus,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings:focus, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary:focus, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize]:focus, .sat-theme .vc_settings .wpb_settings_accordion a:focus, .sat-theme #ws_show_more_icons:focus, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:focus, .sat-theme #edge-mode.updated .button:focus:last-child, .sat-theme a.frm_insert_form:focus, .sat-theme .layers-image-upload-button + .layers-image-upload-button:focus, .wp-customizer #customize-control-site_logo .button:focus, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:focus, .wp-editor-tabs #content-panels:focus, .sat-theme #w3tc-options-menu a:focus, .wpseo-admin-page table tbody td.col_row_action a:focus, .sat-theme .layers-nav-horizontal li > a:focus, .sat-theme #w3tc.wrap .button:focus,
+.sat-theme #w3tc.wrap .button-primary:focus,
+.sat-theme #w3tc.wrap .button-secondary:focus,
+.sat-theme #w3tc.wrap .button-buy-plugin:focus,
+.sat-theme #w3tc.wrap #w3tc_dashboard .button:focus, .sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .button-primary:focus, .sat-theme #frm_form_editor_container .button:focus, .sat-theme #poststuff #woocommerce-order-notes .add_note .button.add_note:focus, body.sat-theme.toplevel_page_revslider .title_line .button-secondary:focus {
+  font-weight: normal;
+  text-decoration: none !important;
+}
+
+.sat-theme .layers-button, .sat-theme .layers-button.btn-primary.disable, .sat-theme .layers-nav-horizontal li > a.layers-get-updater, body.sat-theme.toplevel_page_revslider #button_upload_plugin,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot {
+  padding: 12px 26.25px !important;
+}
+
+.sat-theme .layers-button, .sat-theme .layers-button.btn-primary.disable, .sat-theme .layers-nav-horizontal li > a.layers-get-updater, body.sat-theme.toplevel_page_revslider #button_upload_plugin,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot {
+  color: #606263 !important;
+}
+
+.sat-theme .layers-button, .sat-theme .layers-button.btn-primary.disable, .sat-theme .layers-nav-horizontal li > a.layers-get-updater, body.sat-theme.toplevel_page_revslider #button_upload_plugin,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot {
+  background: #e9ebec !important;
+}
+
+.sat-theme .layers-button, .sat-theme .layers-button.btn-primary.disable, .sat-theme .layers-nav-horizontal li > a.layers-get-updater, body.sat-theme.toplevel_page_revslider #button_upload_plugin,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot {
+  border: 0 !important;
+}
+
+.sat-theme .layers-button:hover, .sat-theme .layers-button.btn-primary.disable:hover, .sat-theme .layers-nav-horizontal li > a.layers-get-updater:hover, body.sat-theme.toplevel_page_revslider #button_upload_plugin:hover,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot:hover, .sat-theme .layers-button:focus, .sat-theme .layers-button.btn-primary.disable:focus, .sat-theme .layers-nav-horizontal li > a.layers-get-updater:focus, body.sat-theme.toplevel_page_revslider #button_upload_plugin:focus,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot:focus {
+  color: #222 !important;
+}
+
+.sat-theme .layers-button:hover, .sat-theme .layers-button.btn-primary.disable:hover, .sat-theme .layers-nav-horizontal li > a.layers-get-updater:hover, body.sat-theme.toplevel_page_revslider #button_upload_plugin:hover,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot:hover, .sat-theme .layers-button:focus, .sat-theme .layers-button.btn-primary.disable:focus, .sat-theme .layers-nav-horizontal li > a.layers-get-updater:focus, body.sat-theme.toplevel_page_revslider #button_upload_plugin:focus,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot:focus {
+  background: #e0e4e6 !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields #add_field, .sat-theme .layers-button.btn-primary, .wp-customizer .button-secondary.add-new-widget, .wp-customizer .widget-content .layers-add-widget-column, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #button_import_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark, #gadwp-widget #submit, #poststuff.gadwp form[name=ga_dash_form] #authorize {
+  padding: 12px 26.25px !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields #add_field, .sat-theme .layers-button.btn-primary, .wp-customizer .button-secondary.add-new-widget, .wp-customizer .widget-content .layers-add-widget-column, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #button_import_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark, #gadwp-widget #submit, #poststuff.gadwp form[name=ga_dash_form] #authorize {
+  color: white !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields #add_field, .sat-theme .layers-button.btn-primary, .wp-customizer .button-secondary.add-new-widget, .wp-customizer .widget-content .layers-add-widget-column, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #button_import_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark, #gadwp-widget #submit, #poststuff.gadwp form[name=ga_dash_form] #authorize {
+  background: #52bde6 !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields #add_field, .sat-theme .layers-button.btn-primary, .wp-customizer .button-secondary.add-new-widget, .wp-customizer .widget-content .layers-add-widget-column, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #button_import_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark, #gadwp-widget #submit, #poststuff.gadwp form[name=ga_dash_form] #authorize {
+  border: 0 !important;
+}
+
+.wp-core-ui .sat-theme #post-body #postbox-container-2 #acf_fields [disabled]#add_field, .sat-theme #post-body #postbox-container-2 #acf_fields .wp-core-ui [disabled]#add_field, .wp-core-ui .sat-theme [disabled].layers-button.btn-primary, .sat-theme .wp-core-ui [disabled].layers-button.btn-primary, .wp-core-ui .wp-customizer [disabled].button-secondary.add-new-widget, .wp-customizer .wp-core-ui [disabled].button-secondary.add-new-widget, .wp-core-ui .wp-customizer .widget-content [disabled].layers-add-widget-column, .wp-customizer .widget-content .wp-core-ui [disabled].layers-add-widget-column, .wp-core-ui body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revblue, body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revblue, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revgreen, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revpurple, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled]#button_import_slider,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled]#button_import_slider, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revbluedark,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revbluedark, .wp-core-ui #gadwp-widget [disabled]#submit, #gadwp-widget .wp-core-ui [disabled]#submit, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] [disabled]#authorize, #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui [disabled]#authorize,
+.wp-core-ui .sat-theme #post-body #postbox-container-2 #acf_fields .disabled#add_field, .sat-theme #post-body #postbox-container-2 #acf_fields
+.wp-core-ui .disabled#add_field,
+.wp-core-ui .sat-theme .disabled.layers-button.btn-primary, .sat-theme
+.wp-core-ui .disabled.layers-button.btn-primary,
+.wp-core-ui .wp-customizer .disabled.button-secondary.add-new-widget, .wp-customizer
+.wp-core-ui .disabled.button-secondary.add-new-widget,
+.wp-core-ui .wp-customizer .widget-content .disabled.layers-add-widget-column, .wp-customizer .widget-content
+.wp-core-ui .disabled.layers-add-widget-column,
+.wp-core-ui body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revblue, body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revblue,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revgreen,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revpurple,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled#button_import_slider,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled#button_import_slider,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revbluedark,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revbluedark,
+.wp-core-ui #gadwp-widget .disabled#submit, #gadwp-widget
+.wp-core-ui .disabled#submit,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .disabled#authorize, #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .disabled#authorize {
+  opacity: 0.5;
+  text-shadow: none !important;
+}
+
+.wp-core-ui .sat-theme #post-body #postbox-container-2 #acf_fields [disabled]#add_field, .sat-theme #post-body #postbox-container-2 #acf_fields .wp-core-ui [disabled]#add_field, .wp-core-ui .sat-theme [disabled].layers-button.btn-primary, .sat-theme .wp-core-ui [disabled].layers-button.btn-primary, .wp-core-ui .wp-customizer [disabled].button-secondary.add-new-widget, .wp-customizer .wp-core-ui [disabled].button-secondary.add-new-widget, .wp-core-ui .wp-customizer .widget-content [disabled].layers-add-widget-column, .wp-customizer .widget-content .wp-core-ui [disabled].layers-add-widget-column, .wp-core-ui body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revblue, body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revblue, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revgreen, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revpurple, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled]#button_import_slider,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled]#button_import_slider, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revbluedark,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revbluedark, .wp-core-ui #gadwp-widget [disabled]#submit, #gadwp-widget .wp-core-ui [disabled]#submit, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] [disabled]#authorize, #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui [disabled]#authorize,
+.wp-core-ui .sat-theme #post-body #postbox-container-2 #acf_fields .disabled#add_field, .sat-theme #post-body #postbox-container-2 #acf_fields
+.wp-core-ui .disabled#add_field,
+.wp-core-ui .sat-theme .disabled.layers-button.btn-primary, .sat-theme
+.wp-core-ui .disabled.layers-button.btn-primary,
+.wp-core-ui .wp-customizer .disabled.button-secondary.add-new-widget, .wp-customizer
+.wp-core-ui .disabled.button-secondary.add-new-widget,
+.wp-core-ui .wp-customizer .widget-content .disabled.layers-add-widget-column, .wp-customizer .widget-content
+.wp-core-ui .disabled.layers-add-widget-column,
+.wp-core-ui body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revblue, body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revblue,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revgreen,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revpurple,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled#button_import_slider,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled#button_import_slider,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revbluedark,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revbluedark,
+.wp-core-ui #gadwp-widget .disabled#submit, #gadwp-widget
+.wp-core-ui .disabled#submit,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .disabled#authorize, #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .disabled#authorize {
+  color: white !important;
+}
+
+.wp-core-ui .sat-theme #post-body #postbox-container-2 #acf_fields [disabled]#add_field, .sat-theme #post-body #postbox-container-2 #acf_fields .wp-core-ui [disabled]#add_field, .wp-core-ui .sat-theme [disabled].layers-button.btn-primary, .sat-theme .wp-core-ui [disabled].layers-button.btn-primary, .wp-core-ui .wp-customizer [disabled].button-secondary.add-new-widget, .wp-customizer .wp-core-ui [disabled].button-secondary.add-new-widget, .wp-core-ui .wp-customizer .widget-content [disabled].layers-add-widget-column, .wp-customizer .widget-content .wp-core-ui [disabled].layers-add-widget-column, .wp-core-ui body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revblue, body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revblue, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revgreen, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revpurple, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled]#button_import_slider,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled]#button_import_slider, .wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper [disabled].button-primary.revbluedark,
+body.sat-theme.toplevel_page_revslider #viewWrapper .wp-core-ui [disabled].button-primary.revbluedark, .wp-core-ui #gadwp-widget [disabled]#submit, #gadwp-widget .wp-core-ui [disabled]#submit, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] [disabled]#authorize, #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui [disabled]#authorize,
+.wp-core-ui .sat-theme #post-body #postbox-container-2 #acf_fields .disabled#add_field, .sat-theme #post-body #postbox-container-2 #acf_fields
+.wp-core-ui .disabled#add_field,
+.wp-core-ui .sat-theme .disabled.layers-button.btn-primary, .sat-theme
+.wp-core-ui .disabled.layers-button.btn-primary,
+.wp-core-ui .wp-customizer .disabled.button-secondary.add-new-widget, .wp-customizer
+.wp-core-ui .disabled.button-secondary.add-new-widget,
+.wp-core-ui .wp-customizer .widget-content .disabled.layers-add-widget-column, .wp-customizer .widget-content
+.wp-core-ui .disabled.layers-add-widget-column,
+.wp-core-ui body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revblue, body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revblue,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revgreen,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revpurple,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled#button_import_slider,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled#button_import_slider,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider #viewWrapper .disabled.button-primary.revbluedark,
+body.sat-theme.toplevel_page_revslider #viewWrapper
+.wp-core-ui .disabled.button-primary.revbluedark,
+.wp-core-ui #gadwp-widget .disabled#submit, #gadwp-widget
+.wp-core-ui .disabled#submit,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .disabled#authorize, #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .disabled#authorize {
+  background: #52bde6 !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields #add_field:hover, .sat-theme .layers-button.btn-primary:hover, .wp-customizer .button-secondary.add-new-widget:hover, .wp-customizer .widget-content .layers-add-widget-column:hover, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple:hover,
+body.sat-theme.toplevel_page_revslider #button_import_slider:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark:hover, #gadwp-widget #submit:hover, #poststuff.gadwp form[name=ga_dash_form] #authorize:hover, .sat-theme #post-body #postbox-container-2 #acf_fields #add_field:focus, .sat-theme .layers-button.btn-primary:focus, .wp-customizer .button-secondary.add-new-widget:focus, .wp-customizer .widget-content .layers-add-widget-column:focus, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple:focus,
+body.sat-theme.toplevel_page_revslider #button_import_slider:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark:focus, #gadwp-widget #submit:focus, #poststuff.gadwp form[name=ga_dash_form] #authorize:focus {
+  background: #34bbee !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields #add_field:hover, .sat-theme .layers-button.btn-primary:hover, .wp-customizer .button-secondary.add-new-widget:hover, .wp-customizer .widget-content .layers-add-widget-column:hover, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple:hover,
+body.sat-theme.toplevel_page_revslider #button_import_slider:hover,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark:hover, #gadwp-widget #submit:hover, #poststuff.gadwp form[name=ga_dash_form] #authorize:hover, .sat-theme #post-body #postbox-container-2 #acf_fields #add_field:focus, .sat-theme .layers-button.btn-primary:focus, .wp-customizer .button-secondary.add-new-widget:focus, .wp-customizer .widget-content .layers-add-widget-column:focus, body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple:focus,
+body.sat-theme.toplevel_page_revslider #button_import_slider:focus,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark:focus, #gadwp-widget #submit:focus, #poststuff.gadwp form[name=ga_dash_form] #authorize:focus {
+  color: white !important;
+}
+
+.sat-theme #frm_submit_side_top, .sat-theme .jp-content .modal .activate .button-primary, .wpseo-admin-page .submit .button, .sat-theme #layers-backup-pages, .sat-theme .layers-product-actions .load-customize, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize] {
+  padding: 12px 26.25px !important;
+}
+
+.sat-theme #frm_submit_side_top, .sat-theme .jp-content .modal .activate .button-primary, .wpseo-admin-page .submit .button, .sat-theme #layers-backup-pages, .sat-theme .layers-product-actions .load-customize, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize] {
+  color: white !important;
+}
+
+.sat-theme #frm_submit_side_top, .sat-theme .jp-content .modal .activate .button-primary, .wpseo-admin-page .submit .button, .sat-theme #layers-backup-pages, .sat-theme .layers-product-actions .load-customize, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize] {
+  background: #75c377 !important;
+}
+
+.sat-theme #frm_submit_side_top, .sat-theme .jp-content .modal .activate .button-primary, .wpseo-admin-page .submit .button, .sat-theme #layers-backup-pages, .sat-theme .layers-product-actions .load-customize, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize] {
+  border: 0 !important;
+}
+
+.wp-core-ui .sat-theme [disabled]#frm_submit_side_top, .sat-theme .wp-core-ui [disabled]#frm_submit_side_top, .wp-core-ui .sat-theme .jp-content .modal .activate [disabled].button-primary, .sat-theme .jp-content .modal .activate .wp-core-ui [disabled].button-primary, .wp-core-ui .wpseo-admin-page .submit [disabled].button, .wpseo-admin-page .submit .wp-core-ui [disabled].button, .wp-core-ui .sat-theme [disabled]#layers-backup-pages, .sat-theme .wp-core-ui [disabled]#layers-backup-pages, .wp-core-ui .sat-theme .layers-product-actions [disabled].load-customize, .sat-theme .layers-product-actions .wp-core-ui [disabled].load-customize, .wp-core-ui body.sat-theme.toplevel_page_revslider [disabled].button-primary.revgreen#button_save_slider, body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled].button-primary.revgreen#button_save_slider, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled].button-primary.revgreen#button_save_slide,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled].button-primary.revgreen#button_save_slide, .wp-core-ui body.sat-theme.toplevel_page_revslider #dialog_import_slider [disabled].button-primary, body.sat-theme.toplevel_page_revslider #dialog_import_slider .wp-core-ui [disabled].button-primary, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled]#button_save_general_settings,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled]#button_save_general_settings, .wp-core-ui .sat-theme.toplevel_page_gf_edit_forms [disabled].button-primary.update-form, .sat-theme.toplevel_page_gf_edit_forms .wp-core-ui [disabled].button-primary.update-form, .wp-core-ui
+.sat-theme.toplevel_page_gf_edit_forms [disabled]#gform_save_settings,
+.sat-theme.toplevel_page_gf_edit_forms .wp-core-ui [disabled]#gform_save_settings, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .submit > [disabled].button-primary, #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui .submit > [disabled].button-primary, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] [disabled][name=ga_dash_authorize], #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui [disabled][name=ga_dash_authorize],
+.wp-core-ui .sat-theme .disabled#frm_submit_side_top, .sat-theme
+.wp-core-ui .disabled#frm_submit_side_top,
+.wp-core-ui .sat-theme .jp-content .modal .activate .disabled.button-primary, .sat-theme .jp-content .modal .activate
+.wp-core-ui .disabled.button-primary,
+.wp-core-ui .wpseo-admin-page .submit .disabled.button, .wpseo-admin-page .submit
+.wp-core-ui .disabled.button,
+.wp-core-ui .sat-theme .disabled#layers-backup-pages, .sat-theme
+.wp-core-ui .disabled#layers-backup-pages,
+.wp-core-ui .sat-theme .layers-product-actions .disabled.load-customize, .sat-theme .layers-product-actions
+.wp-core-ui .disabled.load-customize,
+.wp-core-ui body.sat-theme.toplevel_page_revslider .disabled.button-primary.revgreen#button_save_slider, body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled.button-primary.revgreen#button_save_slider,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled.button-primary.revgreen#button_save_slide,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled.button-primary.revgreen#button_save_slide,
+.wp-core-ui body.sat-theme.toplevel_page_revslider #dialog_import_slider .disabled.button-primary, body.sat-theme.toplevel_page_revslider #dialog_import_slider
+.wp-core-ui .disabled.button-primary,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled#button_save_general_settings,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled#button_save_general_settings,
+.wp-core-ui .sat-theme.toplevel_page_gf_edit_forms .disabled.button-primary.update-form, .sat-theme.toplevel_page_gf_edit_forms
+.wp-core-ui .disabled.button-primary.update-form,
+.wp-core-ui
+.sat-theme.toplevel_page_gf_edit_forms .disabled#gform_save_settings,
+.sat-theme.toplevel_page_gf_edit_forms
+.wp-core-ui .disabled#gform_save_settings,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .submit > .disabled.button-primary, #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .submit > .disabled.button-primary,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .disabled[name=ga_dash_authorize], #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .disabled[name=ga_dash_authorize] {
+  opacity: 0.5;
+  text-shadow: none !important;
+}
+
+.wp-core-ui .sat-theme [disabled]#frm_submit_side_top, .sat-theme .wp-core-ui [disabled]#frm_submit_side_top, .wp-core-ui .sat-theme .jp-content .modal .activate [disabled].button-primary, .sat-theme .jp-content .modal .activate .wp-core-ui [disabled].button-primary, .wp-core-ui .wpseo-admin-page .submit [disabled].button, .wpseo-admin-page .submit .wp-core-ui [disabled].button, .wp-core-ui .sat-theme [disabled]#layers-backup-pages, .sat-theme .wp-core-ui [disabled]#layers-backup-pages, .wp-core-ui .sat-theme .layers-product-actions [disabled].load-customize, .sat-theme .layers-product-actions .wp-core-ui [disabled].load-customize, .wp-core-ui body.sat-theme.toplevel_page_revslider [disabled].button-primary.revgreen#button_save_slider, body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled].button-primary.revgreen#button_save_slider, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled].button-primary.revgreen#button_save_slide,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled].button-primary.revgreen#button_save_slide, .wp-core-ui body.sat-theme.toplevel_page_revslider #dialog_import_slider [disabled].button-primary, body.sat-theme.toplevel_page_revslider #dialog_import_slider .wp-core-ui [disabled].button-primary, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled]#button_save_general_settings,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled]#button_save_general_settings, .wp-core-ui .sat-theme.toplevel_page_gf_edit_forms [disabled].button-primary.update-form, .sat-theme.toplevel_page_gf_edit_forms .wp-core-ui [disabled].button-primary.update-form, .wp-core-ui
+.sat-theme.toplevel_page_gf_edit_forms [disabled]#gform_save_settings,
+.sat-theme.toplevel_page_gf_edit_forms .wp-core-ui [disabled]#gform_save_settings, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .submit > [disabled].button-primary, #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui .submit > [disabled].button-primary, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] [disabled][name=ga_dash_authorize], #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui [disabled][name=ga_dash_authorize],
+.wp-core-ui .sat-theme .disabled#frm_submit_side_top, .sat-theme
+.wp-core-ui .disabled#frm_submit_side_top,
+.wp-core-ui .sat-theme .jp-content .modal .activate .disabled.button-primary, .sat-theme .jp-content .modal .activate
+.wp-core-ui .disabled.button-primary,
+.wp-core-ui .wpseo-admin-page .submit .disabled.button, .wpseo-admin-page .submit
+.wp-core-ui .disabled.button,
+.wp-core-ui .sat-theme .disabled#layers-backup-pages, .sat-theme
+.wp-core-ui .disabled#layers-backup-pages,
+.wp-core-ui .sat-theme .layers-product-actions .disabled.load-customize, .sat-theme .layers-product-actions
+.wp-core-ui .disabled.load-customize,
+.wp-core-ui body.sat-theme.toplevel_page_revslider .disabled.button-primary.revgreen#button_save_slider, body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled.button-primary.revgreen#button_save_slider,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled.button-primary.revgreen#button_save_slide,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled.button-primary.revgreen#button_save_slide,
+.wp-core-ui body.sat-theme.toplevel_page_revslider #dialog_import_slider .disabled.button-primary, body.sat-theme.toplevel_page_revslider #dialog_import_slider
+.wp-core-ui .disabled.button-primary,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled#button_save_general_settings,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled#button_save_general_settings,
+.wp-core-ui .sat-theme.toplevel_page_gf_edit_forms .disabled.button-primary.update-form, .sat-theme.toplevel_page_gf_edit_forms
+.wp-core-ui .disabled.button-primary.update-form,
+.wp-core-ui
+.sat-theme.toplevel_page_gf_edit_forms .disabled#gform_save_settings,
+.sat-theme.toplevel_page_gf_edit_forms
+.wp-core-ui .disabled#gform_save_settings,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .submit > .disabled.button-primary, #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .submit > .disabled.button-primary,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .disabled[name=ga_dash_authorize], #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .disabled[name=ga_dash_authorize] {
+  color: white !important;
+}
+
+.wp-core-ui .sat-theme [disabled]#frm_submit_side_top, .sat-theme .wp-core-ui [disabled]#frm_submit_side_top, .wp-core-ui .sat-theme .jp-content .modal .activate [disabled].button-primary, .sat-theme .jp-content .modal .activate .wp-core-ui [disabled].button-primary, .wp-core-ui .wpseo-admin-page .submit [disabled].button, .wpseo-admin-page .submit .wp-core-ui [disabled].button, .wp-core-ui .sat-theme [disabled]#layers-backup-pages, .sat-theme .wp-core-ui [disabled]#layers-backup-pages, .wp-core-ui .sat-theme .layers-product-actions [disabled].load-customize, .sat-theme .layers-product-actions .wp-core-ui [disabled].load-customize, .wp-core-ui body.sat-theme.toplevel_page_revslider [disabled].button-primary.revgreen#button_save_slider, body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled].button-primary.revgreen#button_save_slider, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled].button-primary.revgreen#button_save_slide,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled].button-primary.revgreen#button_save_slide, .wp-core-ui body.sat-theme.toplevel_page_revslider #dialog_import_slider [disabled].button-primary, body.sat-theme.toplevel_page_revslider #dialog_import_slider .wp-core-ui [disabled].button-primary, .wp-core-ui
+body.sat-theme.toplevel_page_revslider [disabled]#button_save_general_settings,
+body.sat-theme.toplevel_page_revslider .wp-core-ui [disabled]#button_save_general_settings, .wp-core-ui .sat-theme.toplevel_page_gf_edit_forms [disabled].button-primary.update-form, .sat-theme.toplevel_page_gf_edit_forms .wp-core-ui [disabled].button-primary.update-form, .wp-core-ui
+.sat-theme.toplevel_page_gf_edit_forms [disabled]#gform_save_settings,
+.sat-theme.toplevel_page_gf_edit_forms .wp-core-ui [disabled]#gform_save_settings, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .submit > [disabled].button-primary, #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui .submit > [disabled].button-primary, .wp-core-ui #poststuff.gadwp form[name=ga_dash_form] [disabled][name=ga_dash_authorize], #poststuff.gadwp form[name=ga_dash_form] .wp-core-ui [disabled][name=ga_dash_authorize],
+.wp-core-ui .sat-theme .disabled#frm_submit_side_top, .sat-theme
+.wp-core-ui .disabled#frm_submit_side_top,
+.wp-core-ui .sat-theme .jp-content .modal .activate .disabled.button-primary, .sat-theme .jp-content .modal .activate
+.wp-core-ui .disabled.button-primary,
+.wp-core-ui .wpseo-admin-page .submit .disabled.button, .wpseo-admin-page .submit
+.wp-core-ui .disabled.button,
+.wp-core-ui .sat-theme .disabled#layers-backup-pages, .sat-theme
+.wp-core-ui .disabled#layers-backup-pages,
+.wp-core-ui .sat-theme .layers-product-actions .disabled.load-customize, .sat-theme .layers-product-actions
+.wp-core-ui .disabled.load-customize,
+.wp-core-ui body.sat-theme.toplevel_page_revslider .disabled.button-primary.revgreen#button_save_slider, body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled.button-primary.revgreen#button_save_slider,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled.button-primary.revgreen#button_save_slide,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled.button-primary.revgreen#button_save_slide,
+.wp-core-ui body.sat-theme.toplevel_page_revslider #dialog_import_slider .disabled.button-primary, body.sat-theme.toplevel_page_revslider #dialog_import_slider
+.wp-core-ui .disabled.button-primary,
+.wp-core-ui
+body.sat-theme.toplevel_page_revslider .disabled#button_save_general_settings,
+body.sat-theme.toplevel_page_revslider
+.wp-core-ui .disabled#button_save_general_settings,
+.wp-core-ui .sat-theme.toplevel_page_gf_edit_forms .disabled.button-primary.update-form, .sat-theme.toplevel_page_gf_edit_forms
+.wp-core-ui .disabled.button-primary.update-form,
+.wp-core-ui
+.sat-theme.toplevel_page_gf_edit_forms .disabled#gform_save_settings,
+.sat-theme.toplevel_page_gf_edit_forms
+.wp-core-ui .disabled#gform_save_settings,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .submit > .disabled.button-primary, #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .submit > .disabled.button-primary,
+.wp-core-ui #poststuff.gadwp form[name=ga_dash_form] .disabled[name=ga_dash_authorize], #poststuff.gadwp form[name=ga_dash_form]
+.wp-core-ui .disabled[name=ga_dash_authorize] {
+  background: #75c377 !important;
+}
+
+.sat-theme #frm_submit_side_top:hover, .sat-theme .jp-content .modal .activate .button-primary:hover, .wpseo-admin-page .submit .button:hover, .sat-theme #layers-backup-pages:hover, .sat-theme .layers-product-actions .load-customize:hover, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider:hover,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide:hover, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary:hover,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings:hover, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form:hover,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings:hover, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary:hover, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize]:hover, .sat-theme #frm_submit_side_top:focus, .sat-theme .jp-content .modal .activate .button-primary:focus, .wpseo-admin-page .submit .button:focus, .sat-theme #layers-backup-pages:focus, .sat-theme .layers-product-actions .load-customize:focus, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider:focus,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide:focus, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary:focus,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings:focus, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form:focus,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings:focus, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary:focus, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize]:focus {
+  color: white !important;
+}
+
+.sat-theme #frm_submit_side_top:hover, .sat-theme .jp-content .modal .activate .button-primary:hover, .wpseo-admin-page .submit .button:hover, .sat-theme #layers-backup-pages:hover, .sat-theme .layers-product-actions .load-customize:hover, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider:hover,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide:hover, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary:hover,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings:hover, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form:hover,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings:hover, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary:hover, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize]:hover, .sat-theme #frm_submit_side_top:focus, .sat-theme .jp-content .modal .activate .button-primary:focus, .wpseo-admin-page .submit .button:focus, .sat-theme #layers-backup-pages:focus, .sat-theme .layers-product-actions .load-customize:focus, body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slider:focus,
+body.sat-theme.toplevel_page_revslider .button-primary.revgreen#button_save_slide:focus, body.sat-theme.toplevel_page_revslider #dialog_import_slider .button-primary:focus,
+body.sat-theme.toplevel_page_revslider #button_save_general_settings:focus, .sat-theme.toplevel_page_gf_edit_forms .button-primary.update-form:focus,
+.sat-theme.toplevel_page_gf_edit_forms #gform_save_settings:focus, #poststuff.gadwp form[name=ga_dash_form] .submit > .button-primary:focus, #poststuff.gadwp form[name=ga_dash_form] [name=ga_dash_authorize]:focus {
+  background: #51be54 !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a, .sat-theme #ws_show_more_icons, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button, .sat-theme #edge-mode.updated .button:last-child, .sat-theme a.frm_insert_form, .sat-theme .layers-button.btn-link, .sat-theme .layers-image-upload-button + .layers-image-upload-button, .wp-customizer #customize-control-site_logo .button, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button, .wp-editor-tabs #content-panels {
+  padding: 11px 26.25px !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a, .sat-theme #ws_show_more_icons, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button, .sat-theme #edge-mode.updated .button:last-child, .sat-theme a.frm_insert_form, .sat-theme .layers-button.btn-link, .sat-theme .layers-image-upload-button + .layers-image-upload-button, .wp-customizer #customize-control-site_logo .button, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button, .wp-editor-tabs #content-panels {
+  color: #5d6365 !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a, .sat-theme #ws_show_more_icons, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button, .sat-theme #edge-mode.updated .button:last-child, .sat-theme a.frm_insert_form, .sat-theme .layers-button.btn-link, .sat-theme .layers-image-upload-button + .layers-image-upload-button, .wp-customizer #customize-control-site_logo .button, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button, .wp-editor-tabs #content-panels {
+  background: none !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a, .sat-theme #ws_show_more_icons, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button, .sat-theme #edge-mode.updated .button:last-child, .sat-theme a.frm_insert_form, .sat-theme .layers-button.btn-link, .sat-theme .layers-image-upload-button + .layers-image-upload-button, .wp-customizer #customize-control-site_logo .button, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button, .wp-editor-tabs #content-panels {
+  border: 1px solid #d2d7da !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a.sat-button-large, .sat-theme .sat-button-large#ws_show_more_icons, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .sat-button-large.acf_edit_field.acf-button, .sat-theme #edge-mode.updated .sat-button-large.button:last-child, .sat-theme a.sat-button-large.frm_insert_form, .sat-theme .sat-button-large.layers-button.btn-link, .sat-theme .layers-image-upload-button + .sat-button-large.layers-image-upload-button, .wp-customizer #customize-control-site_logo .sat-button-large.button, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .sat-button-large.button, .wp-editor-tabs .sat-button-large#content-panels {
+  line-height: 22px !important;
+  padding: 14px 26.25px !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a:hover, .sat-theme #ws_show_more_icons:hover, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:hover, .sat-theme #edge-mode.updated .button:hover:last-child, .sat-theme a.frm_insert_form:hover, .sat-theme .layers-button.btn-link:hover, .sat-theme .layers-image-upload-button + .layers-image-upload-button:hover, .wp-customizer #customize-control-site_logo .button:hover, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:hover, .wp-editor-tabs #content-panels:hover, .sat-theme .vc_settings .wpb_settings_accordion a:focus, .sat-theme #ws_show_more_icons:focus, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:focus, .sat-theme #edge-mode.updated .button:focus:last-child, .sat-theme a.frm_insert_form:focus, .sat-theme .layers-button.btn-link:focus, .sat-theme .layers-image-upload-button + .layers-image-upload-button:focus, .wp-customizer #customize-control-site_logo .button:focus, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:focus, .wp-editor-tabs #content-panels:focus {
+  color: #222 !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a:hover, .sat-theme #ws_show_more_icons:hover, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:hover, .sat-theme #edge-mode.updated .button:hover:last-child, .sat-theme a.frm_insert_form:hover, .sat-theme .layers-button.btn-link:hover, .sat-theme .layers-image-upload-button + .layers-image-upload-button:hover, .wp-customizer #customize-control-site_logo .button:hover, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:hover, .wp-editor-tabs #content-panels:hover, .sat-theme .vc_settings .wpb_settings_accordion a:focus, .sat-theme #ws_show_more_icons:focus, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:focus, .sat-theme #edge-mode.updated .button:focus:last-child, .sat-theme a.frm_insert_form:focus, .sat-theme .layers-button.btn-link:focus, .sat-theme .layers-image-upload-button + .layers-image-upload-button:focus, .wp-customizer #customize-control-site_logo .button:focus, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:focus, .wp-editor-tabs #content-panels:focus {
+  background: none !important;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a:hover, .sat-theme #ws_show_more_icons:hover, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:hover, .sat-theme #edge-mode.updated .button:hover:last-child, .sat-theme a.frm_insert_form:hover, .sat-theme .layers-button.btn-link:hover, .sat-theme .layers-image-upload-button + .layers-image-upload-button:hover, .wp-customizer #customize-control-site_logo .button:hover, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:hover, .wp-editor-tabs #content-panels:hover, .sat-theme .vc_settings .wpb_settings_accordion a:focus, .sat-theme #ws_show_more_icons:focus, .sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button:focus, .sat-theme #edge-mode.updated .button:focus:last-child, .sat-theme a.frm_insert_form:focus, .sat-theme .layers-button.btn-link:focus, .sat-theme .layers-image-upload-button + .layers-image-upload-button:focus, .wp-customizer #customize-control-site_logo .button:focus, .sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button:focus, .wp-editor-tabs #content-panels:focus {
+  border: 1px solid #b3bbbe !important;
+}
+
+.sat-theme #w3tc-options-menu a, .wpseo-admin-page table tbody td.col_row_action a, .sat-theme .layers-nav-horizontal li > a {
+  margin: 0 4px 4px 0;
+  padding: 11px 26.25px !important;
+}
+
+.sat-theme #w3tc-options-menu a, .wpseo-admin-page table tbody td.col_row_action a, .sat-theme .layers-nav-horizontal li > a {
+  color: #5d6365 !important;
+}
+
+.sat-theme #w3tc-options-menu a, .wpseo-admin-page table tbody td.col_row_action a, .sat-theme .layers-nav-horizontal li > a {
+  border: 1px solid #d2d7da !important;
+}
+
+.sat-theme #w3tc-options-menu a, .wpseo-admin-page table tbody td.col_row_action a, .sat-theme .layers-nav-horizontal li > a {
+  background: none !important;
+}
+
+.sat-theme #w3tc-options-menu a:hover, .wpseo-admin-page table tbody td.col_row_action a:hover, .sat-theme .layers-nav-horizontal li > a:hover, .sat-theme #w3tc-options-menu a:focus, .wpseo-admin-page table tbody td.col_row_action a:focus, .sat-theme .layers-nav-horizontal li > a:focus {
+  color: #222 !important;
+}
+
+.sat-theme #w3tc-options-menu a:hover, .wpseo-admin-page table tbody td.col_row_action a:hover, .sat-theme .layers-nav-horizontal li > a:hover, .sat-theme #w3tc-options-menu a:focus, .wpseo-admin-page table tbody td.col_row_action a:focus, .sat-theme .layers-nav-horizontal li > a:focus {
+  border-color: #b3bbbe !important;
+}
+
+.sat-theme #w3tc-options-menu a:hover, .wpseo-admin-page table tbody td.col_row_action a:hover, .sat-theme .layers-nav-horizontal li > a:hover, .sat-theme #w3tc-options-menu a:focus, .wpseo-admin-page table tbody td.col_row_action a:focus, .sat-theme .layers-nav-horizontal li > a:focus {
+  background: none !important;
+}
+
+.sat-theme #w3tc-options-menu a .count, .wpseo-admin-page table tbody td.col_row_action a .count, .sat-theme .layers-nav-horizontal li > a .count {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 2px;
+  opacity: 0.75;
+}
+
+.sat-theme #w3tc-options-menu a .count, .wpseo-admin-page table tbody td.col_row_action a .count, .sat-theme .layers-nav-horizontal li > a .count {
+  color: #5d6365 !important;
+}
+
+.sat-theme .layers-nav-horizontal li.active > a, .sat-theme .layers-nav-horizontal li.active > a:hover, .sat-theme .layers-nav-horizontal li.active > a:focus {
+  cursor: default;
+}
+
+.sat-theme .layers-nav-horizontal li.active > a, .sat-theme .layers-nav-horizontal li.active > a:hover, .sat-theme .layers-nav-horizontal li.active > a:focus {
+  color: white !important;
+}
+
+.sat-theme .layers-nav-horizontal li.active > a, .sat-theme .layers-nav-horizontal li.active > a:hover, .sat-theme .layers-nav-horizontal li.active > a:focus {
+  border: 1px solid #787e80 !important;
+}
+
+.sat-theme .layers-nav-horizontal li.active > a, .sat-theme .layers-nav-horizontal li.active > a:hover, .sat-theme .layers-nav-horizontal li.active > a:focus {
+  background: #787e80 !important;
+}
+
+.sat-theme .layers-nav-horizontal li.active > a .count {
+  color: white !important;
+}
+
+/*
+ * Table of contents
+ *
+ * 1. Visual Composer
+ * 2. bbPress
+ * 3. Admin Menu Editor Pro
+ * 4. Advanced Custom Fields
+ * 5. W3 Total Cache
+ * 6. Admin Menu Tree Page View
+ * 7. BuddyPress
+ * 8. Formidable forms
+ * 9. WooCommerce
+ * 10. Jetpack
+ * 11. Yoast SEO
+ * 12. Hero Menu
+ * 13. Layers
+ * 14. Revolution Slider
+ * 15. Gravity Forms
+ * 16. Master Slider
+ * 17. Slider WD
+ * 18. Mailchimp Pro
+ * 19. Google Analytics Dashboard
+ * 20. SiteOrigin Pagebuilder
+ */
+/* 1. Visual Composer */
+.sat-theme .composer-switch {
+  clear: both;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.sat-theme .vc_subnav-fixed {
+  top: 0;
+  padding-left: 0;
+}
+
+.sat-theme .vc_welcome {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.sat-theme #visual_composer_content {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.sat-theme.post-type-vc_grid_item #submitdiv .inside {
+  padding-top: 59px !important;
+}
+
+.sat-theme.post-type-vc_grid_item #titlediv {
+  margin-bottom: 45px;
+}
+
+.sat-theme .vc_layout-onion input {
+  font-size: 11px !important;
+  padding: 5px 2px !important;
+  height: auto !important;
+}
+
+.sat-theme select.color {
+  color: inherit;
+  text-shadow: none;
+  border-width: 1px !important;
+}
+
+.sat-theme select.color {
+  border-color: #e8e8e8 ;
+}
+
+.sat-theme .vc_settings .tab_intro {
+  padding: 0;
+}
+
+.sat-theme .vc_settings .wpb_settings_accordion a {
+  width: 100%;
+}
+
+/* 2. bbPress */
+.sat-theme #bbp-dashboard-right-now p.sub,
+.sat-theme #bbp-dashboard-right-now .table,
+.sat-theme #bbp-dashboard-right-now .versions {
+  margin: 0;
+}
+
+.sat-theme #bbp-dashboard-right-now p.sub,
+.sat-theme #bbp-dashboard-right-now td.b,
+.sat-theme #bbp-dashboard-right-now td.b a,
+.sat-theme #bbp-dashboard-right-now .t {
+  font-family: "Ubuntu", "Helvetica Neue", "Segoe UI", "Roboto", "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.sat-theme #bbp-dashboard-right-now table td {
+  padding: 0;
+}
+
+.sat-theme #bbp-dashboard-right-now table td.first {
+  padding-right: 4px;
+}
+
+.sat-theme #bbp-dashboard-right-now table td.last {
+  padding-left: 4px;
+}
+
+.sat-theme #bbp-dashboard-right-now td.b a:hover {
+  color: #42abdf ;
+}
+
+.sat-theme #bbp-dashboard-right-now p.sub {
+  position: static;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sat-theme #bbp-dashboard-right-now .table_content,
+.sat-theme #bbp-dashboard-right-now .table_discussion {
+  border-top: 0;
+}
+
+.sat-theme #bbp-dashboard-right-now .inside {
+  padding-top: 0;
+}
+
+.sat-theme #bbp-dashboard-right-now .versions {
+  padding: 0;
+  padding-top: 15px !important;
+}
+
+.sat-theme #bbp-dashboard-right-now .versions span {
+  font-size: 15px;
+}
+
+.sat-theme #bbp-dashboard-right-now .versions + br {
+  display: none;
+}
+
+/* 3. Admin Menu Editor Pro */
+/* This ensures styling compatibility. Menu editing functionalality does not go together between the sat Admin Menu Editor tool and Menu Editor Pro (Menu Editor Pro will overwrite sat menu customizations) */
+.sat-theme #ws_menu_editor .ws_dropdown_button,
+.sat-theme #ws_menu_editor .ws_select_icon {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+.sat-theme #ws_menu_editor .ws_edit_field {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.sat-theme #ws_menu_editor .ws_editbox input[type="text"],
+.sat-theme #ws_menu_editor .ws_editbox select {
+  width: 100%;
+}
+
+.sat-theme #ws_menu_editor .ws_dropdown_button {
+  height: 45px !important;
+  width: auto;
+}
+
+.sat-theme #ws_menu_editor #ws_cap_selector {
+  height: auto !important;
+}
+
+.sat-theme #ws_menu_editor .ws_reset_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sat-theme #ws_menu_editor .ws_main_button {
+  min-width: 200px;
+}
+
+.sat-theme #ws_menu_editor .ws_select_icon .icon16,
+.sat-theme #ws_menu_editor .ws_select_icon img {
+  top: -1px;
+  padding: 0;
+}
+
+.sat-theme #ws_show_more_icons {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+/* 4. Advanced Custom Fields */
+.sat-theme.post-type-acf #titlediv {
+  margin-bottom: 45px;
+}
+
+.sat-theme.post-type-acf h4 {
+  font-size: 15px;
+}
+
+.sat-theme.post-type-acf #submitdiv .inside {
+  padding-top: 59px !important;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields {
+  background: none;
+  border: 0;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields .sat-widget-close {
+  display: none;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields .inside {
+  margin: 0;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields .order_message {
+  margin-top: 7.5px;
+  white-space: nowrap;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields table.acf_input input[type="text"],
+.sat-theme #post-body #postbox-container-2 #acf_fields table.acf_input input[type="number"],
+.sat-theme #post-body #postbox-container-2 #acf_fields table.acf_input textarea,
+.sat-theme #post-body #postbox-container-2 #acf_fields table.acf_input select {
+  width: 100%;
+}
+
+.sat-theme #post-body #postbox-container-2 #acf_fields .field_save .acf_edit_field.acf-button {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+.sat-theme #acf_location .location-group table.acf_input tbody tr td {
+  padding-left: 0;
+}
+
+.sat-theme table.acf_input tbody tr td {
+  padding: 15px 19.5px;
+}
+
+.sat-theme table.acf_input tbody tr td.label {
+  border: 0;
+}
+
+.sat-theme table.acf_input tbody tr td.label label {
+  font-size: 15px;
+}
+
+/* 5. W3 Total Cache */
+.sat-theme #edge-mode.updated .button:last-child {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+.sat-theme #w3tc.wrap .button,
+.sat-theme #w3tc.wrap .button-primary,
+.sat-theme #w3tc.wrap .button-secondary,
+.sat-theme #w3tc.wrap .button-buy-plugin,
+.sat-theme #w3tc.wrap #w3tc_dashboard .button {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+.sat-theme #w3tc.wrap h4 {
+  font-size: 15px;
+}
+
+.sat-theme #w3tc.wrap ul {
+  margin-left: 0;
+}
+
+.sat-theme #w3tc.wrap #w3tc-dashboard-widgets #postbox-container-left {
+  padding: 30px;
+}
+
+.sat-theme #w3tc.wrap .sat-widget-close {
+  display: none !important;
+}
+
+.sat-theme #w3tc.wrap .postbox .inside {
+  padding: 0;
+}
+
+.sat-theme #w3tc.wrap #w3tc-dashboard-widgets .postbox .inside {
+  margin: 15px 0 0 0;
+  padding: 0 15px;
+}
+
+.sat-theme #w3tc.wrap #w3tc-dashboard-widgets #postbox-container-3 .postbox .inside,
+.sat-theme #w3tc.wrap #w3tc-dashboard-widgets #postbox-container-3 .postbox {
+  min-width: 0;
+  padding: 0 5px;
+}
+
+.sat-theme #toplevel_page_w3tc_dashboard li a span {
+  float: none;
+}
+
+.sat-theme #w3tc-options-menu {
+  margin-top: 15px;
+  font-size: 0;
+}
+
+.sat-theme #w3tc-options-menu a {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+/* 6. Admin Menu Tree Page View */
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree {
+  margin-right: 20px;
+  margin-left: 57px;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-filter {
+  padding-left: 0 !important;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree .admin-menu-tree-page-tree_headline {
+  display: none !important;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-filter > label {
+  display: none;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-filter > label + input {
+  width: 100%;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-filter .admin-menu-tree-page-filter-reset {
+  top: 15px;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-filter .admin-menu-tree-page-filter-nohits {
+  font-size: 13px;
+  text-transform: none;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-filter .admin-menu-tree-page-filter-nohits {
+  color: #aaa ;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-linkwrap {
+  border: 0;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-linkwrap.amtpv-linkwrap-hover {
+  background: none;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-linkwrap > a {
+  background: none !important;
+  cursor: drag;
+  margin: 0;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-linkwrap .amtpv-editpopup {
+  position: static;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  padding: 15px;
+  font-size: 13px;
+  border: 0;
+  opacity: 1;
+  margin: 4px 0;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-linkwrap .amtpv-editpopup .amtpv-editpopup-postid {
+  position: static;
+  margin-top: 10px;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-view-has-childs .admin-menu-tree-page-expand {
+  display: block;
+  position: absolute;
+  left: -15px;
+  font-size: 1.2em;
+  width: 22.5px;
+  height: 22.5px;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-view-has-childs .admin-menu-tree-page-expand {
+  color: #555 ;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-view-has-childs .admin-menu-tree-page-expand:before {
+  content: "+";
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-view-has-childs .admin-menu-tree-page-expand:hover {
+  color: #222 ;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.admin-menu-tree-page-view-has-childs .admin-menu-tree-page-tree_childs li {
+  padding-left: 1em;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.current > div .amtpv-linkwrap:first-of-type {
+  background: none;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.current > div .amtpv-linkwrap:first-of-type a {
+  font-weight: normal;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li.current > div .amtpv-linkwrap:first-of-type a {
+  color: #222 !important;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-editpopup-addpages-names-ul .ui-sortable-handle {
+  display: none;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .amtpv-editpopup-addpages-cancel {
+  padding-left: 0 !important;
+}
+
+.sat-theme #adminmenu li .wp-submenu ul.admin-menu-tree-page-tree li .button-primary {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+/* 7. BuddyPress */
+.sat-theme #bp_activity_type .inside select,
+.sat-theme #bp_activity_type .inside input,
+.sat-theme #bp_activity_itemids .inside select,
+.sat-theme #bp_activity_itemids .inside input,
+.sat-theme #bp_activity_link .inside select,
+.sat-theme #bp_activity_link .inside input,
+.sat-theme #bp_activity_userid .inside select,
+.sat-theme #bp_activity_userid .inside input {
+  width: 100%;
+}
+
+.sat-theme #bp_activity_action > h3,
+.sat-theme #bp_activity_content > h3 {
+  font-family: "Ubuntu", "Helvetica Neue", "Segoe UI", "Roboto", "Open Sans", sans-serif !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  font-weight: normal !important;
+  float: left;
+}
+
+.sat-theme #bp_activity_action > h3,
+.sat-theme #bp_activity_content > h3 {
+  color: #222 ;
+}
+
+/* 8. Formidable forms */
+.sat-theme #frm_form_editor_container #edit-slug-box {
+  float: none;
+}
+
+.sat-theme #frm_form_editor_container .button {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+.sat-theme #frm_submit_side_top {
+  padding: 15px 26.25px !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  width: 100%;
+}
+
+.sat-theme #frm_adv_info {
+  position: static;
+  width: auto;
+}
+
+.sat-theme #frm_adv_info .sat-widget-close {
+  display: none;
+}
+
+.sat-theme #frm_shortcodediv .frm_select_box {
+  display: block;
+}
+
+.sat-theme a.frm_insert_form {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+.sat-theme #adminmenu li a span.frm_inactive_menu {
+  float: none;
+}
+
+.sat-theme.toplevel_page_formidable p.search-box {
+  margin-right: 15px;
+}
+
+.sat-theme ul.frm_form_nav li > a {
+  font-size: 13px;
+}
+
+.sat-theme .postbox .frm-help-tabs.inside,
+.sat-theme #poststuff .frm-help-tabs.inside {
+  padding: 30px;
+}
+
+.sat-theme #poststuff .frm_settings_form h3 {
+  font-family: "Ubuntu", "Helvetica Neue", "Segoe UI", "Roboto", "Open Sans", sans-serif !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  font-weight: normal !important;
+  padding-bottom: 7.5px;
+  margin-bottom: 30px;
+}
+
+.sat-theme #poststuff .frm_settings_form h3 {
+  color: #222 ;
+}
+
+.sat-theme #poststuff .frm_settings_form h3 {
+  border-bottom: 1px solid #e8e8e8 ;
+}
+
+.sat-theme .frm-help-tabs form > .submit,
+.sat-theme #contextual-help-columns > .submit {
+  margin-left: 0;
+}
+
+/* 9. WooCommerce */
+.sat-theme #order_data {
+  padding: 0;
+}
+
+.sat-theme #order_data .order_data_column .form-field .hour,
+.sat-theme #order_data .order_data_column .form-field .minute {
+  width: auto;
+}
+
+.sat-theme #poststuff #woocommerce-order-notes .inside ul.order_notes li {
+  padding: 0;
+}
+
+.sat-theme #poststuff #woocommerce-order-notes h4 {
+  font-size: 15px;
+  margin: 15px 0 0;
+}
+
+.sat-theme #poststuff #woocommerce-order-notes .add_note {
+  border-top: 0;
+  padding: 0;
+}
+
+.sat-theme #poststuff #woocommerce-order-notes .add_note p {
+  margin: 4px 0;
+}
+
+.sat-theme #poststuff #woocommerce-order-notes .add_note .button.add_note {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  margin-top: 4px;
+}
+
+.sat-theme #poststuff #woocommerce-order-actions .inside ul.order_actions li {
+  border: 0;
+  padding: 0;
+}
+
+.sat-theme #poststuff #woocommerce-order-actions .inside ul.order_actions li#actions {
+  margin-bottom: 7.5px;
+}
+
+.sat-theme #poststuff #woocommerce-order-actions .inside ul.order_actions li#actions select {
+  width: 215px;
+}
+
+.sat-theme .button.wc-reload:after {
+  line-height: 45px !important;
+}
+
+.sat-theme .wc-metaboxes-wrapper .wc-metaboxes {
+  border-bottom: 0;
+}
+
+.sat-theme .wc-metaboxes-wrapper .toolbar {
+  border-top: 0;
+  padding: 0 !important;
+}
+
+.sat-theme h2.woo-nav-tab-wrapper {
+  padding-left: 0;
+}
+
+.sat-theme .wrap > h2.woo-nav-tab-wrapper {
+  float: left;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.sat-theme .woocommerce-reports-wide .postbox .chart-with-sidebar,
+.sat-theme .woocommerce-reports-wrap .postbox .chart-with-sidebar {
+  padding: 12px !important;
+  padding-left: 250px !important;
+}
+
+/* 10. Jetpack */
+.sat-theme.toplevel_page_jetpack .wrap, .sat-theme.jetpack_page_jetpack_modules .wrap {
+  padding: 0 !important;
+}
+
+.sat-theme.toplevel_page_jetpack p.search-box, .sat-theme.jetpack_page_jetpack_modules p.search-box {
+  margin-left: 0;
+}
+
+.sat-theme .jp-content .manage-right .subsubsub .current {
+  margin-left: 0;
+}
+
+.sat-theme .jp-content .manage-right p {
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+.sat-theme .jp-content .manage-right p.search-box {
+  padding-top: 0;
+}
+
+.sat-theme .jp-content table.jetpack-modules tr.jetpack-module td .row-actions {
+  padding-bottom: 0;
+  margin-top: 0;
+  bottom: 0;
+}
+
+.sat-theme .jp-content table.jetpack-modules tr.jetpack-module td .row-actions a {
+  margin-bottom: 0;
+}
+
+.sat-theme .jp-content table.jetpack-modules tr.jetpack-module td {
+  line-height: 1.4;
+}
+
+.sat-theme .jp-content table.jetpack-modules .info a:before {
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  margin-right: 7.5px;
+}
+
+.sat-theme .jp-content table.jetpack-modules tbody td a {
+  color: #555 ;
+}
+
+.sat-theme .jp-content table.jetpack-modules tbody tr th, .sat-theme .jp-content table.jetpack-modules tbody tr td {
+  background: none !important;
+}
+
+.sat-theme .jp-content table.jetpack-modules tbody tr.active th, .sat-theme .jp-content table.jetpack-modules tbody tr.active td {
+  background: white !important;
+}
+
+.sat-theme .jp-content .modal .content {
+  max-width: none;
+}
+
+.sat-theme .jp-content .modal .content-container.modal-footer {
+  padding: 30px;
+  bottom: 76px;
+}
+
+.sat-theme .jp-content .modal footer {
+  padding: 15px;
+}
+
+/* 11. Yoast SEO */
+.toplevel_page_wpseo_dashboard .wp-submenu span {
+  float: none !important;
+}
+
+.wpseo-admin-page .nav-tab-wrapper {
+  padding-top: 0;
+  padding-left: 0;
+  font-size: 0;
+}
+
+.wpseo-admin-page .wpseotab > p > strong {
+  font-family: "Ubuntu", "Helvetica Neue", "Segoe UI", "Roboto", "Open Sans", sans-serif !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  font-weight: normal !important;
+  display: block;
+}
+
+.wpseo-admin-page .wpseotab > p > strong {
+  color: #222 ;
+}
+
+.wpseo-admin-page #wpseo_content_top {
+  min-width: 0;
+}
+
+.wpseo-admin-page #wpseo-debug-info h3 span:last-child {
+  padding-left: 0;
+}
+
+.wpseo-admin-page #wpseo-debug-info .wpseo-debug {
+  padding-left: 0;
+}
+
+.wpseo-admin-page #wpseo-debug-info.closed {
+  padding-bottom: 30px;
+}
+
+.wpseo-admin-page table .col_page_title strong {
+  color: #222 ;
+}
+
+.wpseo-admin-page table tbody td.col_row_action {
+  font-size: 0;
+}
+
+.wpseo-admin-page table tbody td.col_row_action a {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+/* 12. Hero Menu */
+.sat-theme .hero_main {
+  z-index: 1;
+}
+
+.sat-theme h2.size_12 {
+  font-size: 12px;
+  line-height: inherit;
+  padding: 0;
+}
+
+/* 13. Layers */
+.sat-theme .layers-button {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+.sat-theme .layers-button.btn-link {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+.sat-theme .layers-image-upload-button + .layers-image-upload-button {
+  width: 100%;
+}
+
+.sat-theme .layers-button-well {
+  border-top: 0;
+  padding: 19.5px;
+  padding-top: 0;
+  background: none;
+}
+
+.sat-theme .layers-logo-wrapper {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.sat-theme .layers-button.layers-proceed-to-customizer:before {
+  display: none;
+}
+
+.sat-theme .layers-button.layers-proceed-to-customizer:after {
+  color: white;
+}
+
+.sat-theme .layers-template-selector {
+  max-height: 750px !important;
+}
+
+.sat-theme .layers-demo-video {
+  box-shadow: none;
+  background: none;
+}
+
+.sat-theme .layers-area-wrapper,
+.sat-theme .layers-footer {
+  margin-left: 0;
+}
+
+.sat-theme .layers-onboard-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.sat-theme .layers-onboard-slider,
+.sat-theme .layers-onboard-slide {
+  width: auto;
+  max-width: none;
+}
+
+@media (max-width: 800px) {
+  .sat-theme .layers-column {
+    float: none;
+    width: auto;
+  }
+}
+
+.sat-theme .layers-page-title + .layers-row {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+.sat-theme .layers-well-alt {
+  background: none;
+  border: 0;
+  padding: 0 !important;
+}
+
+.sat-theme .layers-panel-title {
+  border-bottom: none;
+  padding: 15px 19.5px;
+  padding-bottom: 0;
+}
+
+.sat-theme .layers-page-list-title {
+  font-weight: normal;
+}
+
+.sat-theme .layers-content-large {
+  padding: 30px 34.5px;
+}
+
+.sat-theme .layers-content-large + .layers-button-well {
+  padding: 30px 34.5px;
+  padding-top: 0;
+}
+
+.sat-theme .layers-panel > .layers-list {
+  margin: 15px 19.5px;
+}
+
+.sat-theme .layers-panel > .layers-list li {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.sat-theme .layers-list li.tick {
+  background-position: 0 50%;
+  padding-left: 22.5px;
+}
+
+.sat-theme .layers-footer {
+  background: none;
+}
+
+.sat-theme .layers-footer {
+  border-color: #e8e8e8 ;
+}
+
+.sat-theme .layers-page-title {
+  background: none;
+  padding: 0 0 15px;
+}
+
+.sat-theme .layers-heading {
+  font-family: "Ubuntu", "Helvetica Neue", "Segoe UI", "Roboto", "Open Sans", sans-serif !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  font-weight: normal !important;
+}
+
+.sat-theme .layers-heading {
+  color: #222 ;
+}
+
+.sat-theme .layers-nav-horizontal {
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  font-size: 0;
+  margin-bottom: 30px;
+}
+
+.sat-theme .layers-nav-horizontal > ul {
+  float: left;
+  margin-right: 15px;
+}
+
+.sat-theme .layers-nav-horizontal li {
+  float: none;
+  display: inline-block;
+  margin: 0;
+}
+
+.sat-theme .layers-nav-horizontal li > a.layers-get-updater {
+  margin-top: 0;
+}
+
+.sat-theme .layers-nav-horizontal .layers-help-search {
+  margin: 0;
+}
+
+.sat-theme .layers-section-title.layers-tiny .layers-excerpt {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.sat-theme .layers-product-actions .load-customize {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+.sat-theme #layers_toggle_builder {
+  clear: both;
+}
+
+.sat-theme .layers-section-title .layers-excerpt {
+  max-width: none;
+}
+
+.wp-customizer #customize-controls-layers-actions {
+  left: 50px;
+}
+
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > a,
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > span {
+  width: 50px;
+  height: 50px;
+}
+
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > a:hover,
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > span:hover {
+  text-decoration: none;
+}
+
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > a:hover,
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > span:hover {
+  background: #f6f6f6 ;
+}
+
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > a:after,
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav > li > span:after {
+  position: relative;
+  top: 3px;
+}
+
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav li:hover ul {
+  background: #fff;
+}
+
+.wp-customizer #customize-controls-layers-actions ul.layers-customizer-nav li:hover ul a {
+  width: auto;
+}
+
+.wp-customizer #customize-control-site_logo .button {
+  margin-bottom: 4px;
+}
+
+.wp-customizer label.layers-form-row {
+  text-transform: none;
+  font-weight: normal;
+  font-size: inherit;
+  cursor: default;
+}
+
+.wp-customizer label.layers-form-row {
+  color: #555 ;
+}
+
+.wp-customizer .expanded > div[id*='layers-widget'] .widget-top {
+  background: #fff !important;
+}
+
+.wp-customizer .expanded > div[id*='layers-widget'] .widget-top {
+  border-color: #ddd !important;
+}
+
+.wp-customizer .expanded > div[id*='layers-widget'] .widget-top .widget-title .in-widget-title,
+.wp-customizer .expanded > div[id*='layers-widget'] .widget-top a.widget-action:after {
+  color: #555 !important;
+}
+
+.wp-customizer .expanded > div[id*='layers-widget'] .widget-top h4:before {
+  color: #00A4EC !important;
+}
+
+.wp-customizer .widget-content .layers-controls-title {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+.wp-customizer .widget-content .layers-controls-title {
+  background: #f8f8fa ;
+}
+
+.wp-customizer .widget-content .layers-controls-title {
+  border-bottom-color: #e8e8e8 ;
+}
+
+.wp-customizer .widget-content .layers-controls-title .layers-heading {
+  color: #555 ;
+}
+
+.wp-customizer .widget-content .layers-controls-title .widget-control-actions {
+  top: 10px;
+  right: 100px;
+}
+
+.wp-customizer .widget-content .layers-visuals-horizontal .layers-visuals-title {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.wp-customizer .widget-content .layers-icon-group .layers-icon-wrapper {
+  width: auto;
+  margin: 0 !important;
+  padding-right: 7.5px !important;
+  padding-left: 7.5px !important;
+  text-decoration: none !important;
+}
+
+.wp-customizer #available-widgets #available-widgets-filter {
+  height: 50px;
+  padding: 2px !important;
+}
+
+.wp-customizer .layers-visuals.layers-pull-right {
+  border-right: 1px solid;
+}
+
+.wp-customizer .layers-visuals.layers-pull-right {
+  border-right-color: #e8e8e8 ;
+}
+
+.wp-customizer .layers-visuals.layers-pull-right h6.layers-visuals-title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* 14. Revolution Slider */
+body.sat-theme.toplevel_page_revslider {
+  height: auto;
+  min-height: 100%;
+}
+
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revblue,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgreen,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revpurple,
+body.sat-theme.toplevel_page_revslider #button_import_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revbluedark {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+body.sat-theme.toplevel_page_revslider #button_upload_plugin,
+body.sat-theme.toplevel_page_revslider #button_cancel_save_slider,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revyellow,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revred,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revgray,
+body.sat-theme.toplevel_page_revslider #viewWrapper .button-primary.revcarrot {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+body.sat-theme.toplevel_page_revslider .postbox.unite-postbox {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+body.sat-theme.toplevel_page_revslider #form_slider_params .fontinput_wrapper {
+  height: auto;
+}
+
+body.sat-theme.toplevel_page_revslider #slider_size_row td .description {
+  max-width: none;
+}
+
+body.sat-theme.toplevel_page_revslider .settings_panel_left {
+  width: auto;
+}
+
+body.sat-theme.toplevel_page_revslider #layout-preshow-page {
+  margin-left: 0;
+}
+
+body.sat-theme.toplevel_page_revslider .title_line {
+  padding: 0 7.5px !important;
+}
+
+body.sat-theme.toplevel_page_revslider .title_line .button-secondary {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+body.sat-theme.toplevel_page_revslider .title_line.nobgnopd {
+  padding: 0 !important;
+  background: none !important;
+}
+
+body.sat-theme.toplevel_page_revslider .unite_table_items {
+  margin-top: 15px;
+}
+
+body.sat-theme.toplevel_page_revslider .unite_table_items th:first-child {
+  width: 45px !important;
+}
+
+body.sat-theme.toplevel_page_revslider .unite_table_items th:last-child {
+  width: 25% !important;
+}
+
+body.sat-theme.toplevel_page_revslider .sliders_list_container {
+  width: auto;
+}
+
+/* 15. Gravity Forms */
+.sat-theme.toplevel_page_gf_edit_forms #sidebarmenu1 .button {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+}
+
+/* 16. Master Slider */
+.sat-theme #msp-main-wrapper .msp-container input[type="text"] {
+  box-sizing: border-box !important;
+}
+
+.sat-theme .mps-style-editor.ui-dialog-content {
+  min-height: 700px !important;
+}
+
+/* 17. Slider WD */
+.sat-theme.toplevel_page_sliders_wds #sliders_form {
+  width: auto !important;
+}
+
+.sat-theme.toplevel_page_sliders_wds .wbs_subtab a {
+  height: 100px;
+}
+
+/* 18. Mailchimp Pro */
+#mc4wp-checkbox input[type=checkbox]:checked:before {
+  content: none;
+}
+
+/* 19. Google Analytics Dashboard */
+#gadwp-widget select {
+  width: 100%;
+  font-size: 15px !important;
+  height: 45px !important;
+}
+
+#gadwp-widget select + select {
+  margin-top: 4px !important;
+}
+
+#gadwp-widget #submit {
+  width: 100%;
+}
+
+#gadwp-widget #gadwp-mainchart-1 {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+#gadwp-widget .gadwp-wrapper .inside .small-box {
+  box-shadow: none;
+  background: none;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#gadwp-widget .gadwp-wrapper .inside .small-box h3 {
+  font-size: 13px;
+}
+
+#gadwp-widget .gadwp-wrapper .inside .small-box h3 {
+  color: #aaa ;
+}
+
+#gadwp-widget .gadwp-wrapper .inside .small-box p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+#gadwp-widget .gadwp-wrapper .inside .small-box p {
+  color: #555 ;
+}
+
+#gadwp-widget #gadwp-reports-1 + div {
+  text-align: center !important;
+  font-size: 13px !important;
+  margin-top: 15px !important;
+  margin-right: 0 !important;
+}
+
+#gadwp-widget #gadwp-reports-1 + div {
+  color: #aaa !important;
+}
+
+#poststuff.gadwp {
+  padding-top: 0 !important;
+}
+
+#poststuff.gadwp form[name=ga_dash_form] #ga_speed_samplerate,
+#poststuff.gadwp form[name=ga_dash_form] #ga_realtime_pages {
+  width: 100px;
+}
+
+/* 20. SiteOrigin Pagebuilder */
+#so-panels-panels {
+  clear: both;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.wp-editor-tabs #content-panels {
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+  margin-top: 0;
+}
+
+.siteorigin-panels-builder .so-widget {
+  max-height: none !important;
+}
+
+.siteorigin-panels-builder .so-widget .description {
+  padding-top: 0;
+}
+
+.siteorigin-panels-builder .so-rows-container {
+  overflow: hidden;
+}
